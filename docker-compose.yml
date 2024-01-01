@@ -32,9 +32,9 @@ services:
       - db
 
   sentiment_analyzer:
-    image: sentimentapi # Replace with your actual image name
+    image: sentimentapi 
     ports:
-      - "9090:9090"  # Choose a different external port, for example, 9090
+      - "9090:9090"  
     restart: always
     depends_on:
       - feddit
