@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Feddit Comments is a FastAPI-based web API designed to analyze and retrieve the sentiment of comments retrieved from Feddit API (Fake Reddit API).
+Feddit Comments API is a FastAPI-based web API designed to analyze and retrieve the sentiment of comments retrieved from Feddit API (Fake Reddit API).
 
 
 ## Repository Overview
