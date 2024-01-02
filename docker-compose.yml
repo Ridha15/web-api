@@ -32,7 +32,7 @@ services:
       - db
 
   sentiment_analyzer:
-    image: sentimentapi 
+    image: ridhads22174/sentimentapi:latest
     ports:
       - "9090:9090"  
     restart: always
