@@ -29,7 +29,7 @@ This repository contains the source code and configuration files for the API.
 - `requirements.txt`: A file specifying Python dependencies required for running the FastAPI application.
 
 
-The API can be assessed using the 'docker-compose.yml' file in the repository.
+The API can be assessed using the `docker-compose.yml` file in the repository.
 
 
 ## Running with Docker
