@@ -6,11 +6,8 @@ Feddit Sentiment Analyzer is a FastAPI-based web API designed to analyze the sen
 
 # Repository Overview
 
-This repository contains the source code and configuration files for the Feddit Sentiment Analyzer, a FastAPI-based web API for sentiment analysis of comments from a hypothetical Feddit API.
-
-## Directory Overview
-## File and Folder Overview
-
+This repository contains the source code and configuration files for the Feddit Sentiment Analyzer API. 
+## Repository Overview
 
 - `app/`: The main application folder.
 
@@ -35,7 +32,7 @@ This repository contains the source code and configuration files for the Feddit 
 
 The API can be assessed using the 'docker-compose.yml' file in the repository.
 
-## Prerequisite
+#### Prerequisite
 
 Make sure Docker is installed.
 
@@ -54,5 +51,5 @@ docker-compose -f <path-to-docker-compose.yml> down
 The application will be accessible at http://localhost:9090.
 
 # API Documentation
-Access the OpenAPI documentation: http://localhost:9090/docs
-Endpoint for sentiment analysis: http://localhost:/comments_sentiment/
+- Access the OpenAPI documentation: http://localhost:9090/docs
+- Endpoint for sentiment analysis: http://localhost:/comments_sentiment/
