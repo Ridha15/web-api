@@ -42,9 +42,11 @@ Make sure Docker is installed.
 ### Running with Docker
 
 - To locally run the Feddit API, open the terminal and replace <path-to-docker-compose.yml> with the actual path to the provided docker-compose.yml file in the following command:
+```bash
 docker-compose -f <path-to-docker-compose.yml> up -d
 
 - To stop the Feddit API, use the following command in the terminal, replacing <path-to-docker-compose.yml> with the actual path to the provided docker-compose.yml file:
+```bash
 docker-compose -f <path-to-docker-compose.yml> down
 
 The application will be accessible at http://localhost:9090.
