@@ -1,12 +1,12 @@
-# Feddit Sentiment Analyzer
+# Feddit Comments API
 
 ## Introduction
 
-Feddit Sentiment Analyzer is a FastAPI-based web API designed to analyze the sentiment of comments retrieved from Feddit API (Fake Reddit API).
+Feddit Comments is a FastAPI-based web API designed to analyze and retrieve the sentiment of comments retrieved from Feddit API (Fake Reddit API).
 
 
 ## Repository Overview
-This repository contains the source code and configuration files for the Feddit Sentiment Analyzer API. 
+This repository contains the source code and configuration files for the API. 
 
 - `app/`: The main application folder.
 
@@ -35,12 +35,12 @@ The API can be assessed using the 'docker-compose.yml' file in the repository.
 ## Running with Docker
 ##### Prerequisite: Make sure Docker is installed.
 
-- To locally run the Feddit API, open the terminal and replace <path-to-docker-compose.yml> with the actual path to the provided `docker-compose.yml` file in the following command:
+- To locally run the API, open the terminal and replace <path-to-docker-compose.yml> with the actual path to the provided `docker-compose.yml` file in the following command:
 ```bash
 docker-compose -f <path-to-docker-compose.yml> up -d 
 ```
 
-- To stop the Feddit API, use the following command in the terminal, replacing <path-to-docker-compose.yml> with the actual path to the provided `docker-compose.yml` file:
+- To stop the API, use the following command in the terminal, replacing <path-to-docker-compose.yml> with the actual path to the provided `docker-compose.yml` file:
 ```bash
 docker-compose -f <path-to-docker-compose.yml> down
 ```
