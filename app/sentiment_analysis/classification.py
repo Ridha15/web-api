@@ -1,7 +1,6 @@
 from textblob import TextBlob
 
 class SentimentAnalyzer:
-    @staticmethod
     def analyze_sentiment(comment_text):
         analysis = TextBlob(comment_text)
         polarity = analysis.polarity
