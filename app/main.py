@@ -26,6 +26,5 @@ async def get_comments(
     Returns:
     - List of comments with sentiment analysis.
     """
-    fedditapi = FedditAPI()
-    result = fedditapi.get_comments_for_subfeddit(subfeddit_name, limit=limit, start_time=start_time, end_time=end_time, sort_by_score=sort_by_score)
+    result = FedditApi.get_comments_for_subfeddit(subfeddit_name, limit=limit, start_time=start_time, end_time=end_time, sort_by_score=sort_by_score)
     return result
